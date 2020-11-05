@@ -12,7 +12,7 @@
 	<artifactId>photo-upload-app</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>photo-upload-app</name>
-	<description>Photo upload app, based of a YouTube tutorial. Two main reason I did this tutorial: learn one way of bundling Spring Boot & React.js together and gain more exposure to AWS services.</description>
+	<description>Photo upload app, based of a YouTube tutorial. Two main reason I did this tutorial: learn one way of bundling Spring Boot and React.js together and gain more exposure to AWS services.</description>
 
 	<properties>
 		<java.version>11</java.version>
@@ -23,7 +23,6 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
@@ -34,6 +33,13 @@
 					<artifactId>junit-vintage-engine</artifactId>
 				</exclusion>
 			</exclusions>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/com.amazonaws/aws-java-sdk -->
+		<dependency>
+			<groupId>com.amazonaws</groupId>
+			<artifactId>aws-java-sdk</artifactId>
+			<version>1.11.893</version>
 		</dependency>
 	</dependencies>
 
